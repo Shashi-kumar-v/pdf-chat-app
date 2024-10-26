@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader
 from transformers import pipeline
 import os
 
-access_token = "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"
+access_token = "Hugging face access token"
 llm_pipeline = pipeline("text-generation", model="gpt2", token=access_token)
 
 def load_pdf(pdf_file):
